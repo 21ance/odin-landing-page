@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+}
+
+.header, .section-two {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 20px 200px;
+    align-items: center;
+}
+
+.section-two {
+    padding: 50px 200px;
+    gap: 50px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.header-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E3E7EB;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.section-two .left, .right {
+    color: white;
+    flex: 1;
+}
+
+.section-two .right {
+    display: flex;
+    color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 80px;
+}
+
+.section-two .hero {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.section-two .hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 17px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section-three {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    text-align: center;    
+    margin-bottom: 70px;
+}
+
+.card{
+    display: flex;
+    height: 150px;
+    max-width: 170px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+
+img{
+    width: 170px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-container p{
+    width: 170px;
+}
+
+.section-four{
+    display: flex;
+    background-color: #E3E7EB;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0;
+    margin: 0;
+}
+
+.quoter p{
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-five{
+    display: flex;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    justify-content: space-around;
+    margin: 50px 250px;
+    border-radius: 12px;
+    align-items: center;
+    padding: 40px;
+}
+
+.call{
+    border-color: #F9FAF8;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E3E7EB;
+    padding: 30px;
+}
+
+h3{
+    margin-block-end: 0;
+}
+
+.section-five p{
+    margin-block-start: 0;
+
+}
